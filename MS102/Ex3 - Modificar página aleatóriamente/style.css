@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  margin: 2rem;
+}
+
+main {
+  width: max(50%, 800px);
+  margin: auto;
+}
+
+#article {
+  text-indent: 1rem;
+  text-align: justify;
+  margin: 2rem;
+  border: 1px solid black;
+  padding: 0 1rem;
+}
