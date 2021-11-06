@@ -1,0 +1,9 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  margin: 1rem;
+}
