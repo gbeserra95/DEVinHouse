@@ -1,4 +1,6 @@
+// Global variables
 var myLocalStorage = 'myLocalStorage'
+var btnAdd = document.getElementById('btnAdd')
 
 // Update list
 function updateList(arg) {
@@ -15,6 +17,7 @@ function updateList(arg) {
     //li
     let newItem = document.createElement('li')
     newItem.id = element.id
+    newItem.setAttribute('draggable', true)
 
     //div
     let newDiv = document.createElement('div')
@@ -94,13 +97,59 @@ function updateList(arg) {
     })
   }
 
-  console.log(myJSON)
+  // Drag and Drop items
+  let myItems = document.getElementsByTagName('LI')
+  let originID, targetID, tempObject
+  for (let item of myItems) {
+    item.addEventListener('dragstart', function () {
+      this.style.opacity = '0.5'
+      this.style.backgroundColor = 'rgb(119, 217, 112)'
+
+      originID = this.id.match(/\d+/g)
+      tempObject = {
+        task: myJSON[originID].task,
+        status: myJSON[originID].status
+      }
+    })
+    item.addEventListener('dragend', function (e) {
+      this.style.opacity = ''
+    })
+    item.addEventListener('dragover', function (e) {
+      e.preventDefault()
+    })
+    item.addEventListener('dragenter', function (e) {
+      this.style.backgroundColor = 'violet'
+    })
+    item.addEventListener('dragleave', function (e) {
+      this.style.backgroundColor = 'rgb(238, 238, 238)'
+    })
+    item.addEventListener('drop', function () {
+      targetID = this.id.match(/\d+/g)
+
+      myJSON[originID].task = myJSON[targetID].task
+      myJSON[originID].status = myJSON[targetID].status
+
+      myJSON[targetID].task = tempObject.task
+      myJSON[targetID].status = tempObject.status
+
+      localStorage.setItem(myLocalStorage, JSON.stringify(myJSON))
+      updateList()
+    })
+  }
+
   if (arg) {
     return [index, myJSON]
   } else {
     return 0
   }
 }
+
+window.addEventListener('keyup', function (e) {
+  if (e.key === 'Enter') {
+    e.preventDefault()
+    btnAdd.click()
+  }
+})
 
 window.addEventListener('load', function () {
   let order, myObject
@@ -114,7 +163,6 @@ window.addEventListener('load', function () {
   }
 
   // Save a new task on your local storage
-  const btnAdd = document.getElementById('btnAdd')
   let textInput = document.getElementById('newTask')
 
   textInput.addEventListener('input', function () {

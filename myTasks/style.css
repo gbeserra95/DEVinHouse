@@ -1,6 +1,5 @@
 body {
   max-width: 1020px;
-  height: 100vh;
   margin: auto;
   overflow: scroll;
   background-color: rgb(238, 238, 238);
@@ -86,6 +85,7 @@ body {
   color: grey;
   font-size: 0.8rem;
   font-family: Arial;
+  line-height: 1.6;
 }
 
 #inputs p span {
