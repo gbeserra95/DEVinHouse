@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: red;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 0;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 16.5vh;
+}
