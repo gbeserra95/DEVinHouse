@@ -21,16 +21,9 @@ window.onload = function () {
     }
   }
 
-  // Descend sorting array
-  arr.sort(function (b, a) {
-    if (a > b) {
-      return 1
-    }
-    if (a < b) {
-      return -1
-    }
-    return 0
-  })
+  // Alphabetically descending array
+  arr.sort()
+  arr.reverse()
 
   // Creating sections
   var container = document.getElementById('container')
