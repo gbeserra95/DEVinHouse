@@ -19,11 +19,11 @@ class Book {
 const book1 = new Book('The Shining', 'Stephen King', 1977)
 const book2 = new Book(
   "Harry Potter and the Philosopher's Stone",
-  'K.K Rowling',
+  'J.K Rowling',
   1997
 )
 const book3 = new Book('1984', 'George Orwell', 1949)
-const book4 = new Book('Escravidão: Volume I', 'Laurentino Gomes King', 2019)
+const book4 = new Book('Escravidão: Volume I', 'Laurentino Gomes', 2019)
 const book5 = new Book(
   'Sapiens: A Brief History of Humankind',
   'Yuval Harari',
