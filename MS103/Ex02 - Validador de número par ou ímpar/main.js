@@ -1,7 +1,5 @@
-function isPrime(n) {
-  if (n <= 1) return false
-
-  for (let i = 2; i < n; i++) if (n % i == 0) return false
+function isEven(n) {
+  if (n % 2 != 0) return false
 
   return true
 }
@@ -12,10 +10,10 @@ window.onload = function () {
 
   buttom.addEventListener('click', function () {
     let myValue = parseInt(myInput.value)
-    if (isPrime(myValue)) {
-      alert(`O número ${myValue} é primo.`)
+    if (isEven(myValue)) {
+      alert(`O número ${myValue} é par.`)
     } else {
-      alert(`O número ${myValue} NÃO é primo.`)
+      alert(`O número ${myValue} é ímpar.`)
     }
   })
 }
