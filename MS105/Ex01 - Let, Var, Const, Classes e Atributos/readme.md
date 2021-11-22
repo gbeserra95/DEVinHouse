@@ -50,7 +50,7 @@ Apesar de **const** não poder ser sobrescrita ou declarada novamente. caso seja
 
 # Classes, atributos e métodos
 
-## Clases
+## Classes
 
 **Class** é um _template_ que permite a criação de diversos objetos semelhantes, com as mesmas propriedades. Ele define o estado e o comportamento de um objeto implementando atributos (variáveis) e métodos (funções). Por convenção, as classes são escritas capitalizadas.
 
