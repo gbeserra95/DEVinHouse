@@ -1,7 +1,13 @@
-var myLocalStorage = 'myAdress'
+// My local storage
+var myTableHeader = 'myTableHeader'
+var myLocalStorage = 'myCustomer'
 
-// Home Address
+// Customer
 const customerName = document.getElementById('customer-name')
+const cpf = document.getElementById('cpf')
+const phoneNumber = document.getElementById('phone-number')
+
+// Address
 const addressType = document.getElementById('address-type')
 const street = document.getElementById('street')
 const number = document.getElementById('number')
@@ -15,7 +21,6 @@ let myInputs = document.querySelectorAll("input[type='text']")
 
 // My submit button
 let myBtn = document.getElementById('btn-submit')
-myBtn.disabled = true
 
 for (let i = 0; i < myInputs.length; i++) {
   myInputs[i].addEventListener('input', function () {
@@ -33,9 +38,22 @@ for (let i = 0; i < myInputs.length; i++) {
   })
 }
 
-class Address {
-  constructor(customerName, type, street, number, suburb, city, state, zip) {
+class Customer {
+  constructor(
+    customerName,
+    cpf,
+    phoneNumber,
+    type,
+    street,
+    number,
+    suburb,
+    city,
+    state,
+    zip
+  ) {
     this.customerName = customerName
+    this.cpf = cpf
+    this.phoneNumber = phoneNumber
     this.type = type
     this.street = street
     this.number = number
@@ -44,6 +62,21 @@ class Address {
     this.state = state
     this.zip = zip
   }
+
+  static dataHeader() {
+    return [
+      'Cliente',
+      'CPF',
+      'Telefone',
+      'Endereço',
+      'Logradouro',
+      'Número',
+      'Bairro',
+      'Cidade',
+      'Estado',
+      'CEP'
+    ]
+  }
 }
 
 // get the current local storage JSON
@@ -51,6 +84,7 @@ function getLocalStorage() {
   if (localStorage.getItem(myLocalStorage)) {
     return JSON.parse(localStorage.getItem(myLocalStorage))
   } else {
+    localStorage.setItem(myTableHeader, JSON.stringify(Customer.dataHeader()))
     localStorage.setItem(myLocalStorage, '[]')
     return JSON.parse(localStorage.getItem(myLocalStorage))
   }
@@ -59,8 +93,10 @@ function getLocalStorage() {
 // Save data on local Storage
 function saveData() {
   let myObj = getLocalStorage()
-  let newAddress = new Address(
+  let customer = new Customer(
     customerName.value,
+    cpf.value,
+    phoneNumber.value,
     addressType.value,
     street.value,
     number.value,
@@ -70,6 +106,7 @@ function saveData() {
     zipCode.value
   )
 
-  myObj.push(newAddress)
+  myObj.push(customer)
+  console.log(myObj)
   localStorage.setItem(myLocalStorage, JSON.stringify(myObj))
 }
