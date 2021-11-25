@@ -1,4 +1,5 @@
 // My local storage
+var myTableHeader = 'myTableHeader'
 var myLocalStorage = 'myCustomer'
 
 // Customer
@@ -62,18 +63,18 @@ class Customer {
     this.zip = zip
   }
 
-  get customerData() {
+  static dataHeader() {
     return [
-      this.customerName,
-      this.cpf,
-      this.phoneNumber,
-      this.type,
-      this.street,
-      this.number,
-      this.suburb,
-      this.city,
-      this.state,
-      this.zip
+      'Cliente',
+      'CPF',
+      'Telefone',
+      'Endereço',
+      'Logradouro',
+      'Número',
+      'Bairro',
+      'Cidade',
+      'Estado',
+      'CEP'
     ]
   }
 }
@@ -83,6 +84,7 @@ function getLocalStorage() {
   if (localStorage.getItem(myLocalStorage)) {
     return JSON.parse(localStorage.getItem(myLocalStorage))
   } else {
+    localStorage.setItem(myTableHeader, JSON.stringify(Customer.dataHeader()))
     localStorage.setItem(myLocalStorage, '[]')
     return JSON.parse(localStorage.getItem(myLocalStorage))
   }
@@ -91,7 +93,6 @@ function getLocalStorage() {
 // Save data on local Storage
 function saveData() {
   let myObj = getLocalStorage()
-
   let customer = new Customer(
     customerName.value,
     cpf.value,
@@ -102,9 +103,10 @@ function saveData() {
     suburb.value,
     city.value,
     state.value,
-    zip.value
+    zipCode.value
   )
 
   myObj.push(customer)
+  console.log(myObj)
   localStorage.setItem(myLocalStorage, JSON.stringify(myObj))
 }

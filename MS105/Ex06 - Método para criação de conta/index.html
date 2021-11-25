@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar Endereços</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de clientes</h1>
+    </header>
+    <main>
+      <section>
+        <form id="my-form" onsubmit="saveData()">
+          <div id="f-content">
+            <fieldset>
+              <label for="customer-name">Nome:</label>
+              <input type="text" name="customer-name" id="customer-name" />
+              <label for="cpf">CPF:</label>
+              <input type="text" name="cpf" id="cpf" />
+              <label for="phone-number">Telefone:</label>
+              <input type="text" name="phone-number" id="phone-number" />
+              <div id="div-address-type">
+                <label for="street">Logradouro:</label>
+                <select name="addres-type" id="address-type">
+                  <option value="Residencial">Residencial</option>
+                  <option value="Comercial">Comercial</option>
+                </select>
+              </div>
+              <input type="text" name="street" id="street" autocomplete="off" />
+              <label for="number">Número:</label>
+              <input type="text" name="number" id="number" autocomplete="off" />
+              <label for="suburb">Bairro: </label>
+              <input type="text" name="suburb" id="suburb" autocomplete="off" />
+              <label for="city">Cidade:</label>
+              <input type="text" name="city" id="city" autocomplete="off" />
+              <label for="state">Estado:</label>
+              <input type="text" name="state" id="state" autocomplete="off" />
+              <label for="zip">CEP:</label>
+              <input type="text" name="zip" id="zip" autocomplete="off" />
+            </fieldset>
+          </div>
+          <div id="f-submit">
+            <input id="btn-submit" type="submit" value="Salvar" disabled />
+          </div>
+        </form>
+      </section>
+      <section id="myTable">
+        <a href="myTable.html" target="_blank">Visualizar clientes</a>
+      </section>
+    </main>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

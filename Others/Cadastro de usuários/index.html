@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="container">
+      <section id="left-section">
+        <h1>Cadastro de usuário</h1>
+        <form id="my-form" onsubmit="submit">
+          <div id="inputs">
+            <label for="fname">Nome</label>
+            <input type="text" name="fname" id="fname" />
+            <label for="fimage">Imagem</label>
+            <input type="text" name="fimage" id="fimage" />
+            <label for="fdescription">Descrição</label>
+            <textarea
+              type="text"
+              name="fdescription"
+              id="fdescription"
+            ></textarea>
+            <input type="submit" value="CRIAR USUÁRIO" />
+          </div>
+        </form>
+      </section>
+      <section id="right-section">
+        <div id="div-image">
+          <img
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
+            alt="Foto do usuário"
+            id="my-image"
+          />
+        </div>
+        <div id="div-description">
+          <h2 id="display-name">Usuário</h2>
+          <p id="display-description">Descrição</p>
+        </div>
+      </section>
+    </main>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

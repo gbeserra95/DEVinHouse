@@ -1,19 +1,6 @@
 // My local storage
+var myTableHeader = 'myTableHeader'
 var myLocalStorage = 'myCustomer'
-var myTableHeader = [
-  'Nome',
-  'CPF',
-  'Telefone',
-  'Endereço',
-  'Logradouro',
-  'Número',
-  'Bairro',
-  'Cidade',
-  'Estado',
-  'CEP'
-]
-
-localStorage.setItem('myTableHeader', JSON.stringify(myTableHeader))
 
 // My main container
 let container = document.getElementById('container')
@@ -23,6 +10,8 @@ function noDataAtAll() {
 }
 
 function createTable(myObj, header) {
+  console.log(header)
+  console.log(myObj)
   // My table tags
   let table = document.createElement('table')
   let tableHeadRow = document.createElement('tr')
@@ -52,7 +41,7 @@ function createTable(myObj, header) {
 if (localStorage.getItem(myLocalStorage)) {
   createTable(
     JSON.parse(localStorage.getItem(myLocalStorage)),
-    JSON.parse(localStorage.getItem('myTableHeader'))
+    JSON.parse(localStorage.getItem(myTableHeader))
   )
 } else {
   noDataAtAll()
