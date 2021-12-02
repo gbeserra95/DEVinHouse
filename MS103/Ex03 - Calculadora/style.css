@@ -61,10 +61,19 @@ body {
   align-items: center;
 }
 
-.expression,
 .equal {
   display: flex;
   color: white;
+}
+
+.expression {
+  display: block;
+  text-align: left;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
 }
 
 .expression span {
