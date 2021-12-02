@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de desconto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora de desconto</h1>
+    </header>
+    <main>
+      <section>
+        <div id="my-form">
+          <div>
+            <fieldset>
+              <label for="input-01">Valor total: R$</label>
+              <input type="number" name="input-01" id="input-01" />
+            </fieldset>
+            <fieldset>
+              <label for="input-02">Valor do desconto:</label>
+              <input type="number" name="input-02" id="input-02" />
+              <p>%</p>
+            </fieldset>
+          </div>
+          <button id="btn">Calcular</button>
+        </div>
+        <p id="total"></p>
+        <p id="discount"></p>
+        <p id="to-pay"></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
