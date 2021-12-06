@@ -37,45 +37,72 @@ class Account {
 }
 
 class Transaction {
-  constructor(account, value) {
-    this.account = account
+  constructor(fromAccount, toAccount, value) {
+    this.fromAccount = fromAccount
+    this.toAccount = toAccount
     this.value = value
+    this.id = 1
+    this.date = ''
   }
 
   transfer() {
-    this.account.balance -= this.value
-  }
-
-  deposit() {
-    this.account.balance += this.value
+    let today = new Date()
+    this.fromAccount.balance -= this.value
+    this.toAccount.balance += this.value
+    return `Transaction number #${this.id}:
+            From: ${this.fromAccount.customer.customerName}, account #${
+      this.fromAccount.account
+    }
+            To: ${this.toAccount.customer.customerName}, account #${
+      this.toAccount.account
+    }
+            Date: ${today.getDate()}/${today.getMonth()}/${today.getFullYear()} at ${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}
+            Value: $${this.value}`
+    this.id++
   }
 }
 
-let newAddress = new Address(
-  'Comercial ',
-  'Rua Antônio da Veiga',
-  '479',
-  'Blumenau',
-  'SC',
-  'Brasil',
-  '89012-500'
-)
-
-let newCustomer = new Customer(
+let vendor = new Customer(
   'Dominos Pizza',
   '111.111.111-14',
-  newAddress,
-  '4732377778'
+  new Address(
+    'Comercial ',
+    'Rua Antônio da Veiga',
+    '479',
+    'Blumenau',
+    'SC',
+    'Brasil',
+    '89012-500'
+  ),
+  '(47)3237-7778'
 )
 
-let newAccount = new Account('256987-8', 500.0, newCustomer)
+let vendorAcc = new Account('256987-8', 500.0, vendor)
 
-let newTransaction = new Transaction(newAccount, 200.5)
-newTransaction.deposit()
+let customer = new Customer(
+  'Joseph Tribianni',
+  '123.333.456-14',
+  new Address(
+    'Residencial',
+    'Rua dos Abutres',
+    '78',
+    'Blumenau',
+    'SC',
+    'Brasil',
+    '89550-520'
+  )
+)
 
-console.log(newAccount.balance)
-console.log(newCustomer.validateCPF())
+let customerAcc = new Account('123484-9', 500.0, customer)
 
-let otherTransaction = new Transaction(newAccount, 100.49)
-otherTransaction.transfer()
-console.log(newAccount.balance)
+let transfer01 = new Transaction(customerAcc, vendorAcc, 310.0)
+
+console.log(`Customer Balance: ${customerAcc.balance}`)
+console.log(`Vendor Balance: ${vendorAcc.balance}`)
+console.log(`----------------------------------------`)
+
+console.log(transfer01.transfer())
+
+console.log(`----------------------------------------`)
+console.log(`Customer Balance: ${customerAcc.balance}`)
+console.log(`Vendor Balance: ${vendorAcc.balance}`)
