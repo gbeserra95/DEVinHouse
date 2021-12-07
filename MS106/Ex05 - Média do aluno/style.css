@@ -1,0 +1,11 @@
+body {
+  background-color: darksalmon;
+  margin: 1rem 2rem;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1rem;
+}
