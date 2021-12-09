@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import CapsLock from '../CapsLock'
 import Square from '../Square'
 import Circle from '../Circle'
@@ -26,6 +28,11 @@ const Figure = ({
       )}
     </>
   )
+}
+
+Figure.propTypes = {
+  type: PropTypes.oneOf(['square', 'circle','rectangle','triangle']),
+  bg: PropTypes.string
 }
 
 export default Figure
