@@ -1,14 +1,9 @@
-import CapsLock from '../CapsLock'
-
-const Circle = ({background, title}) => {
+const Circle = ({background}) => {
   return (
-    <div>
-        <CapsLock title={title}/>
-      <div
-        style= {{background: background}} 
-        className="circle">
-      </div>
-    </div>
+   <div
+    style= {{background: background}} 
+    className="circle">
+  </div>
   )
 }
 

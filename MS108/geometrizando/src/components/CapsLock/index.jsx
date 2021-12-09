@@ -1,7 +1,7 @@
-const CapsLock = ({title}) => {
+const CapsLock = ({children}) => {
   return (
     <div>
-      {title.toUpperCase()}
+      {children.toUpperCase()}
     </div>
   )
 }
