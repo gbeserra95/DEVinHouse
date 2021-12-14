@@ -1,6 +1,6 @@
 # DEVinHouse
 
-In this repository, I will be commiting all the exercices and projects I will be developing during my studies at [SENAI's DEVinHouse](https://cadastro.sc.senai.br/l/5yRQf0ABF1174) program.
+In this repository, I will be commiting all the exercices and projects of my studies at [SENAI's DEVinHouse](https://cadastro.sc.senai.br/l/5yRQf0ABF1174) program.
 
 ## What is DEVinHouse?
 
