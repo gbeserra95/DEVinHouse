@@ -8,24 +8,15 @@ DEVinhouse is a career acceleration journey with: targeted curriculum, market pr
 
 ## Curriculum
 
-  <div align="center">
-    <img src="https://user-images.githubusercontent.com/47508755/146042904-7e8e2acb-ae76-4c41-a0d2-f5a417b5642e.png" alt="First Module">
-    <div>
-      Starting with the basics of the WEB, going through everything you will need to master React. Here you will also have the first contact with GIT and Kanban board.
-  </div>
-  <br/>
-  <div align="center">
-    <img src="https://user-images.githubusercontent.com/47508755/146042904-7e8e2acb-ae76-4c41-a0d2-f5a417b5642e.png" alt="Second Module">
-    <div>
-      You'll learn C# from scratch, through .netCore to mastering everything you need to build robust solutions, and of course through SQL, testing and documentation. The mini-sprints will start in this module, so you will learn and practice weekly with agile methodologies.
-    </div>
-  </div>
-    </div>
-    <br/>
-  <div align="center">
-    <img src="https://user-images.githubusercontent.com/47508755/146043557-829fee60-ed7e-4522-a754-9117d9849e12.png" alt="Third Module">
-    <div>
-      It's time to take off, combining your frontend and backend skills you are ready to become a Fullstack developer! In this module you will delve into the complete development cycle, mastering Docker, Messaging and also automated tests!
-    </div>
-  </div>
-
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47508755/146042904-7e8e2acb-ae76-4c41-a0d2-f5a417b5642e.png"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47508755/146045050-66a71ab2-80dc-4ea1-af2c-943a5c022589.png"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47508755/146043557-829fee60-ed7e-4522-a754-9117d9849e12.png"/></td>
+  </tr>
+    <tr>
+    <td valign="center">Starting with the basics of the WEB, going through everything you will need to master React. Here you will also have the first contact with GIT and Kanban board.</td>
+    <td valign="center">You'll learn C# from scratch, through .netCore to mastering everything you need to build robust solutions, and of course through SQL, testing and documentation. The mini-sprints will start in this module, so you will learn and practice weekly with agile methodologies.</td>
+    <td valign="center">It's time to take off, combining your frontend and backend skills you are ready to become a Fullstack developer! In this module you will delve into the complete development cycle, mastering Docker, Messaging and also automated tests!</td>
+  </tr>
+</table>
