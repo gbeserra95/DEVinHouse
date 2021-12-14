@@ -1,10 +1,10 @@
 # DEVinHouse
 
-In this repository, I will be commiting all the exercices and projects I will be developing during my studies at [SENAI's DEVinHouse](https://cadastro.sc.senai.br/l/5yRQf0ABF1174).
+In this repository, I will be commiting all the exercices and projects I will be developing during my studies at [SENAI's DEVinHouse](https://cadastro.sc.senai.br/l/5yRQf0ABF1174) program.
 
 ## What is DEVinHouse?
 
-DEVinhouse is a career acceleration journey with: targeted curriculum, market professors, constant practice, frequent interaction with the partner houses of each class, daily DEV simulation and exclusive vacancies that are opened by the Houses during the journey.
+DEVinhouse is a career acceleration journey with targeted curriculum, market professors, constant practice, frequent interaction with the partner houses of each class, daily DEV simulation and exclusive vacancies that are opened by the Houses during the journey.
 
 ## Curriculum
 
