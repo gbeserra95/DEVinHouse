@@ -10,9 +10,9 @@ DEVinhouse is a career acceleration journey with: targeted curriculum, market pr
 
 <table>
   <tr>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/47508755/146042904-7e8e2acb-ae76-4c41-a0d2-f5a417b5642e.png" width="33%" height="33%"/></td>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/47508755/146045050-66a71ab2-80dc-4ea1-af2c-943a5c022589.png" width="33%" height="33%"/></td>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/47508755/146043557-829fee60-ed7e-4522-a754-9117d9849e12.png" width="33%" height="33%"/></td>
+    <td align="center" width="33%" height="33%"><img src="https://user-images.githubusercontent.com/47508755/146042904-7e8e2acb-ae76-4c41-a0d2-f5a417b5642e.png"/></td>
+    <td align="center" width="33%" height="33%"><img src="https://user-images.githubusercontent.com/47508755/146045050-66a71ab2-80dc-4ea1-af2c-943a5c022589.png"/></td>
+    <td align="center" width="33%" height="33%"><img src="https://user-images.githubusercontent.com/47508755/146043557-829fee60-ed7e-4522-a754-9117d9849e12.png"/></td>
   </tr>
     <tr>
     <td valign="center">Starting with the basics of the WEB, going through everything you will need to master React. Here you will also have the first contact with GIT and Kanban board.</td>
