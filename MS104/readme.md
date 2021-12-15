@@ -1,3 +1,3 @@
-### Projecto 1
+### Project 1
 
 To-do list.
