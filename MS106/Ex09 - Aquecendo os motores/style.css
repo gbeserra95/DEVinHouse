@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle {
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
+#game-over {
+    visibility: hidden;
+    position: fixed;
+    margin: auto;
+    cursor: auto;
+    background-color: cornflowerblue;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#score {
+    position: fixed;
+    top: 2rem;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
