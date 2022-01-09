@@ -14,21 +14,19 @@
 /* Contact styles */
 .contact-container {
   display: flex;
-  justify-content: space-around;
+  gap: 0.5rem;
   align-items: center;
-  height: 4rem;
-  width: 14rem;
-  border: 1px solid lightslategray;
+  padding: 0.5rem;
+  width: fit-content;
   border-radius: 2px;
-  margin: 1rem;
-  background-color: lightskyblue;
 }
 
 .user-photo {
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   border-radius: 50%;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .contact-text {
@@ -38,10 +36,11 @@
   text-overflow: ellipsis;
   direction: ltr;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
 }
 
 .user-info {
-  width: 9rem;
+  width: 8rem;
 }
 
 .user-name {
@@ -49,5 +48,61 @@
 }
 
 .user-description {
+  font-size: 0.75rem;
+}
+
+/* User post styles */
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: fit-content;
+  align-items: center;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px 1px black;
+  gap: 0.5rem;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-image {
+  width: 12rem;
+  height: 8rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+}
+
+.post-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-like {
+  display: flex;
+  padding: 0 0.25rem;
+}
+
+.likes-text {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+i {
+  cursor: pointer;
+}
+
+.icon-heart {
+  color: red;
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.icon-share2 {
   font-size: 0.75rem;
 }
