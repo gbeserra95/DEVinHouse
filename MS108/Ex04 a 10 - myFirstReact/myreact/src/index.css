@@ -1,3 +1,4 @@
+/* Button style */
 .myButton {
   display: flex;
   justify-content: center;
@@ -7,4 +8,46 @@
   height: 2rem;
   border-radius: 4px;
   cursor: pointer;
+  margin: 1rem;
+}
+
+/* Contact styles */
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  width: 14rem;
+  border: 1px solid lightslategray;
+  border-radius: 2px;
+  margin: 1rem;
+  background-color: lightskyblue;
+}
+
+.user-photo {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.contact-text {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-info {
+  width: 9rem;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-description {
+  font-size: 0.75rem;
 }
