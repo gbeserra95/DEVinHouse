@@ -175,3 +175,94 @@ i {
   background-color: #04aa6d;
   color: white;
 }
+
+/* Yu-Gi-Oh style */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 22rem;
+  border: 5px solid darkslategrey;
+  margin: 2rem;
+  background-color: rgb(179, 155, 22);
+  gap: 0.5rem;
+}
+
+.card-header {
+  display: flex;
+  margin: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.5rem;
+  box-shadow: 2px 2px 2px 2px darkslategrey;
+  padding: 0.25rem;
+}
+
+.card-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-symbol {
+  background-image: url('https://1.bp.blogspot.com/-QUU5KSFMYig/UxXrJZoOOfI/AAAAAAAABxE/7p8CLfWdTXA/s1600/Dark.png');
+  background-size: contain;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.card-stars {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 1.5rem;
+  margin-top: -0.75rem;
+  margin-right: 0.5rem;
+}
+
+.card-star {
+  background-image: url('https://res.cloudinary.com/teepublic/image/private/s--QLntn8aX--/c_crop,x_10,y_10/c_fit,w_830/c_crop,g_north_west,h_1038,w_1038,x_-104,y_-138/l_upload:v1565806151:production:blanks:vdbwo35fw6qtflw9kezw/fl_layer_apply,g_north_west,x_-215,y_-249/b_rgb:c62b29/c_limit,f_jpg,h_630,q_90,w_630/v1510267159/production/designs/2040903_1.jpg');
+  background-size: contain;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.card-image {
+  background-size: contain;
+  width: 14rem;
+  height: 10.5rem;
+  background-repeat: no-repeat;
+  margin: 0 0.25rem;
+  border: 0.25rem solid darkslategrey;
+  border-radius: 5px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.25rem;
+  gap: 0.5rem;
+  padding: 0.25rem;
+  border: 2px solid rgba(204, 18, 18, 0.486);
+  background-color: rgb(243, 220, 90);
+}
+
+.card-type {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.card-description {
+  font-size: 0.75rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: right;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin: 0 0.25rem;
+}
+/*
+;
+*/
