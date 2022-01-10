@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Button style */
 .myButton {
   display: flex;
@@ -35,7 +39,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   direction: ltr;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.75rem;
 }
 
@@ -136,13 +139,39 @@ i {
   overflow: hidden;
   text-overflow: ellipsis;
   direction: ltr;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.75rem;
 }
 .product-price {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.75rem;
   color: goldenrod;
   font-weight: bold;
   text-align: center;
+}
+
+/* Table style */
+.myTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.myTable td,
+.myTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.myTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.myTable tr:hover {
+  background-color: #ddd;
+}
+
+.myTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
 }

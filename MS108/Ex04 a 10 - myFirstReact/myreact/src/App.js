@@ -3,6 +3,7 @@ import Button from './components/Button'
 import Contact from './components/Contact'
 import UserPost from './components/UserPost'
 import Product from './components/Product'
+import Table from './components/Table'
 
 function App() {
   return (
@@ -30,6 +31,23 @@ function App() {
         description="Manual | Shampoo Antiqueda | Saw Palmetto e Cafeína"
         price="R$23,66"
       ></Product>
+      <Table
+        title="My React Table"
+        description="Hello, world! This is my first React Table Component."
+        columns={['event', 'deviceId', 'comment']}
+        data={[
+          {
+            event: 'Event#01',
+            deviceId: '000 001',
+            comment: 'First event'
+          },
+          {
+            event: 'Event#02',
+            deviceId: '000 002',
+            comment: 'Second event'
+          }
+        ]}
+      ></Table>
     </>
   )
 }
