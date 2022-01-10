@@ -2,6 +2,7 @@ import './App.css'
 import Button from './components/Button'
 import Contact from './components/Contact'
 import UserPost from './components/UserPost'
+import Product from './components/Product'
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
         postTime="5 min"
         url="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
       ></UserPost>
+      <Product
+        url="https://www.manual.com.br/_next/image?url=%2F_next%2Fstatic%2Fsrc%2Fassets%2Fimages%2Fshampoo-58208790a9b079042e85dbec578ab80f.png&w=640&q=75"
+        description="Manual | Shampoo Antiqueda | Saw Palmetto e Cafeína"
+        price="R$23,66"
+      ></Product>
     </>
   )
 }
