@@ -24,3 +24,56 @@
 .item-card-name {
   text-align: center;
 }
+
+.container-app {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* HOME CSS */
+.category-item {
+  height: 34px;
+  padding: 10px 5px;
+  width: 100%;
+  background-color: #304e74;
+  margin: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+  color: #fff;
+}
+
+/* MENU CSS */
+.menu {
+  height: 44px;
+  background: #ec6d08;
+
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 15px 10px;
+}
+
+.menu-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.menu-list-item {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
