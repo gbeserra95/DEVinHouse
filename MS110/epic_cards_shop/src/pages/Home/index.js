@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div className="container-app">
       {TYPES.map(type => (
-        <div className="category-item">
+        <div key="type" className="category-item">
           <Link to={`/cards/${type}`}>{type}</Link>
         </div>
       ))}

@@ -1,10 +1,15 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef, useContext } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Card from '../../components/Card'
+import { CartContext } from '../../contexts/Cart'
 
 const Cards = () => {
   const params = useParams()
+
   const inputRef = useRef(null)
+
+  const { addItem } = useContext(CartContext)
+
   const [cards, setCards] = useState([])
 
   //Query params
@@ -27,12 +32,21 @@ const Cards = () => {
       <h1>Total de cards: {cards.length}</h1>
       <div className="container">
         {cards.map(card => (
-          <Card
-            key={card.id}
-            image={card.card_images[0].image_url_small}
-            name={card.name}
-            type={card.type}
-          ></Card>
+          <div>
+            <Card
+              key={card.id}
+              image={card.card_images[0].image_url_small}
+              name={card.name}
+              type={card.type}
+            />
+            <button
+              onClick={() => {
+                addItem(card)
+              }}
+            >
+              Comprar
+            </button>
+          </div>
         ))}
       </div>
     </div>
