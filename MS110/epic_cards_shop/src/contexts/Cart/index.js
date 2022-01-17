@@ -26,16 +26,14 @@ export function CartProvider({ children }) {
   }
 
   function handleRemoveCart(idCard) {
-    const cartFiltered = cart.filter(item => item.idCard === idCard)
-    /*setCart(
-      cart.filter(item => {
-        if (item.id === id) {
-          return false
-        } else {
-          return true
-        }
-      })
-    )*/
+    const cartFiltered = cart.filter(item => {
+      if (item.idCard === idCard) {
+        return false // Remove item do carrinho
+      } else {
+        return true // permanece item no carrinho
+      }
+    })
+    // const cartFiltered = cart.filter(item => item.idCard === idCard)
     setCart(cartFiltered)
     localStorage.setItem('cart', JSON.stringify(cartFiltered))
     alert('Removido do item')
