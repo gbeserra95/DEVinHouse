@@ -12,7 +12,7 @@ function Temperature({ city, country, temperature, weather }) {
         <div className="date">{formateDate(new Date())}</div>
       </div>
       <div className="weather-box">
-        <div className="temp">{Math.round(temperature)}°C</div>
+        <div className="temp">{Math.round(temperature - 273.16)}°C</div>
         <div className="weather">{weather}</div>
       </div>
     </div>
