@@ -23,6 +23,7 @@ function Cart() {
                 <img
                   className="table-image"
                   src={item.card_images[0].image_url_small}
+                  alt="Foto da carta"
                 />
               </td>
               <td>{item.name}</td>

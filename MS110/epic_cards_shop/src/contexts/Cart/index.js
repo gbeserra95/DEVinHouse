@@ -17,15 +17,16 @@ export function CartProvider({ children }) {
     // SOLUÇÃO PARA ADICIONAR UM NOVO ID NO CARRINHO
     const newCard = {
       ...card,
-      idCart: uuidv4()
+      idCard: uuidv4()
     }
+
     setCart([...cart, newCard])
     localStorage.setItem('cart', JSON.stringify([...cart, card]))
     alert('Adicionado ao carrinho')
   }
 
-  function handleRemoveCart(idCart) {
-    const cartFiltered = cart.filter(item => item.idCart === idCart)
+  function handleRemoveCart(idCard) {
+    const cartFiltered = cart.filter(item => item.idCard === idCard)
     /*setCart(
       cart.filter(item => {
         if (item.id === id) {

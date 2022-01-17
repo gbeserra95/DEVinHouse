@@ -21,7 +21,7 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link className="menu-list-item" to="/about">
+          <Link className="menu-list-item" to="/wishlist">
             Sobre
           </Link>
         </li>
