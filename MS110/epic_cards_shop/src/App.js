@@ -9,6 +9,7 @@ import Cart from './pages/Cart'
 
 import { CartProvider } from './contexts/Cart'
 import { FavoritesProvider } from './contexts/Favorites'
+import Checkout from './pages/Checkout'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/cards/:category" element={<Cards />} />
             <Route path="/wishlist" element={<WishList />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
           </Routes>
         </FavoritesProvider>
       </CartProvider>
