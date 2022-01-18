@@ -3,8 +3,10 @@ import Temperature from './components/Temperature'
 import { useState } from 'react'
 
 const api = {
-  key: 'aca47f15695cd58e099a5d0aa14fa926',
-  base: 'https://api.openweathermap.org/data/2.5/'
+  key: '',
+  base: 'https://api.openweathermap.org/data/2.5/',
+  language: 'pt_br',
+  units: 'metric'
 }
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
   const search = async e => {
     if (e.key === 'Enter') {
       const response = await fetch(
-        `${api.base}weather?q=${query}&units-metric&APPID=${api.key}`
+        `${api.base}weather?q=${query}&units=${api.units}&lang=${api.language}&APPID=${api.key}`
       )
       const myJson = await response.json()
       console.log(myJson)
@@ -24,7 +26,11 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div
+      className={
+        weather.main ? (weather.main.temp > 16 ? 'app warm' : 'app') : 'app'
+      }
+    >
       <main>
         <div className="search-box">
           <input
