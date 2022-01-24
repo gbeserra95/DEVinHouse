@@ -1,33 +1,22 @@
-import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
-import { CartContext } from '../../contexts/Cart'
-import Cart from '../../pages/Cart'
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { CartContext } from '../../contexts/Cart';
 
-const Menu = () => {
-  const { cart } = useContext(CartContext)
+function Menu() {
+
+  const {cart} = useContext(CartContext)
+ 
   return (
-    <div className="menu">
-      <div>{cart.length} items no carrinho</div>
-      <h1 className="menu-title">Epic Cards Shop</h1>
-      <ul className="menu-list">
-        <li>
-          <Link className="menu-list-item" to="/">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link className="menu-list-item" to="/cart">
-            Carrinho
-          </Link>
-        </li>
-        <li>
-          <Link className="menu-list-item" to="/wishlist">
-            Favoritos
-          </Link>
-        </li>
+    <nav className='menu'>
+      {cart.length} no carrinho
+      <h1 className='menu-title'>Epic Cards Shop</h1>
+      <ul className='menu-list'>
+        <li><Link to="/" className='menu-list-item'>Home</Link></li>
+        <li><Link to="/cart" className='menu-list-item' >Cart</Link></li>
+        <li><Link to="/lista_desejos" className='menu-list-item'>Lista de desejos</Link></li>
       </ul>
-    </div>
-  )
+    </nav>
+  );
 }
 
-export default Menu
+export default Menu;

@@ -1,20 +1,25 @@
 .container {
-  width: 70%;
+  max-width: 70%;
   margin: 0 auto;
 
   display: flex;
   flex-wrap: wrap;
 
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ccc;
-  width: max(150px, 20%);
+  border: 1px solid #CCC;
+  width: 150px;
+  margin: 10px;
+
   justify-content: center;
   align-items: center;
+
+  gap: 10px;
 }
 
 .item-card-photo {
@@ -31,11 +36,12 @@
 }
 
 /* HOME CSS */
+
 .category-item {
   height: 34px;
   padding: 10px 5px;
   width: 100%;
-  background-color: #304e74;
+  background: #304E74;
   margin: 10px;
   border-radius: 5px;
 
@@ -43,24 +49,23 @@
   align-items: center;
 
   font-size: 16px;
-  color: #fff;
+  color: #FFF;
 }
 
-/* MENU CSS */
+
+/* CSS MENU */
+
 .menu {
   height: 44px;
-  background: #ec6d08;
-
+  background: #EC6D08;
   display: flex;
   justify-content: space-between;
-
   align-items: center;
-
   padding: 15px 10px;
 }
 
 .menu-title {
-  color: #fff;
+  color: #FFF;
   font-size: 24px;
   font-weight: bold;
 }
@@ -72,30 +77,29 @@
 }
 
 .menu-list-item {
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  text-decoration: none;
+ color: #FFF;
+ font-weight: bold;
+ font-size: 16px;
+ text-decoration: none; 
 }
 
-/* TABLE CSS */
+/* CSS TABLE */
+
 .table-cart {
   width: 100%;
-  background: #fff;
+  background: #FFF;
   padding: 10px;
   border-radius: 10px;
   margin: 10px 0;
 }
 
-.table-cart thead,
-th {
+.table-cart thead, th {
   color: #999;
   text-align: left;
   padding: 12px;
 }
 
-.table-cart tbody,
-th {
+.table-cart tbody, th {
   padding: 12px;
   border-bottom: 1px solid #eee;
 }

@@ -1,13 +1,22 @@
-import React from 'react'
-import { ContainerInput, DescriptionInput, InputText } from './styles'
+import React from 'react';
 
-function Input({ label, ...otherProps }) {
+import { 
+   ContainerInput, 
+   DescriptionInput, 
+   InputText,
+   ErrorMessage
+   } from './styles';
+
+function Input({ label, errorMessage, flexBasis, ...otherProps }) {
   return (
-    <ContainerInput>
-      <DescriptionInput>{label}</DescriptionInput>
-      <InputText {...otherProps} />
+    <ContainerInput flexBasis={flexBasis}>
+     <DescriptionInput>{label}</DescriptionInput>
+      <InputText
+        {...otherProps}
+      />
+      <ErrorMessage>{errorMessage}</ErrorMessage> 
     </ContainerInput>
-  )
+  );
 }
 
-export default Input
+export default  React.memo(Input);

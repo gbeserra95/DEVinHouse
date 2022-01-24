@@ -1,35 +1,36 @@
-import { useContext } from 'react'
-import { FaHeart, FaCartPlus } from 'react-icons/fa'
-import { CartContext } from '../../contexts/Cart'
-import { FavoritesContext } from '../../contexts/Favorites'
+import React, { useContext } from 'react';
+import { FaCartPlus, FaHeart } from 'react-icons/fa';
 
-const Card = ({ data }) => {
-  const { addItem } = useContext(CartContext)
-  const { addFavorite } = useContext(FavoritesContext)
+import { CartContext } from '../../contexts/Cart';
+import { FavoritesContext } from '../../contexts/Favorites';
+
+function Card({ data }) {
+
+  const {addItem} = useContext(CartContext)
+  const {addFavorite} = useContext(FavoritesContext)
 
   return (
-    <div className="item-card">
+    <div className='item-card'>
       <img
-        className="item-card-photo"
         src={data.card_images[0].image_url_small}
         alt="Foto da carta"
+        className='item-card-photo'
       />
-      <span className="item-card-name">{data.name} </span>
+      <span className="item-card-name">{data.name}</span>
       <span>{data.type}</span>
-      <div className="footer-card">
+
+      <div className='footer-card'>
         <FaCartPlus
           onClick={() => {
             addItem(data)
-          }}
-        />
-        <FaHeart
-          onClick={() => {
-            addFavorite(data.name)
-          }}
-        />
+          }} />
+
+        <FaHeart  onClick={() => {
+          addFavorite(data.name)
+        }}/>
       </div>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
