@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/bin/Debug/net6.0/Ex02 - Variavel
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/bin/Debug/net6.0/Ex02 - Variavel.deps.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/bin/Debug/net6.0/Ex02 - Variavel.runtimeconfig.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/bin/Debug/net6.0/Ex02 - Variavel.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/bin/Debug/net6.0/Ex02 - Variavel.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/Ex02 - Variavel.csproj.AssemblyReference.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/Ex02 - Variavel.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/Ex02 - Variavel.AssemblyInfoInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/Ex02 - Variavel.AssemblyInfo.cs
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/Ex02 - Variavel.csproj.CoreCompileInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/Ex02 - Variavel.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/refint/Ex02 - Variavel.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/Ex02 - Variavel.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/Ex02 - Variavel.genruntimeconfig.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex02 - Variavel/obj/Debug/net6.0/ref/Ex02 - Variavel.dll
