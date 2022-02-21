@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/Ex05 - Arredondando.csproj.AssemblyReference.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/Ex05 - Arredondando.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/Ex05 - Arredondando.AssemblyInfoInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/Ex05 - Arredondando.AssemblyInfo.cs
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/Ex05 - Arredondando.csproj.CoreCompileInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/bin/Debug/net6.0/Ex05 - Arredondando
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/bin/Debug/net6.0/Ex05 - Arredondando.deps.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/bin/Debug/net6.0/Ex05 - Arredondando.runtimeconfig.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/bin/Debug/net6.0/Ex05 - Arredondando.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/bin/Debug/net6.0/Ex05 - Arredondando.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/Ex05 - Arredondando.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/refint/Ex05 - Arredondando.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/Ex05 - Arredondando.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/Ex05 - Arredondando.genruntimeconfig.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex05 - Arredondando/obj/Debug/net6.0/ref/Ex05 - Arredondando.dll
