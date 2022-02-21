@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/Ex06 - Strings.csproj.AssemblyReference.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/Ex06 - Strings.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/Ex06 - Strings.AssemblyInfoInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/Ex06 - Strings.AssemblyInfo.cs
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/Ex06 - Strings.csproj.CoreCompileInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/bin/Debug/net6.0/Ex06 - Strings
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/bin/Debug/net6.0/Ex06 - Strings.deps.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/bin/Debug/net6.0/Ex06 - Strings.runtimeconfig.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/bin/Debug/net6.0/Ex06 - Strings.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/bin/Debug/net6.0/Ex06 - Strings.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/Ex06 - Strings.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/refint/Ex06 - Strings.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/Ex06 - Strings.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/Ex06 - Strings.genruntimeconfig.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex06 - Strings/obj/Debug/net6.0/ref/Ex06 - Strings.dll
