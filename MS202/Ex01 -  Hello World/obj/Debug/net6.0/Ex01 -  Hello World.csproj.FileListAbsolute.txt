@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/bin/Debug/net6.0/Ex01 -  Hello World
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/bin/Debug/net6.0/Ex01 -  Hello World.deps.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/bin/Debug/net6.0/Ex01 -  Hello World.runtimeconfig.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/bin/Debug/net6.0/Ex01 -  Hello World.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/bin/Debug/net6.0/Ex01 -  Hello World.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/Ex01 -  Hello World.csproj.AssemblyReference.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/Ex01 -  Hello World.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/Ex01 -  Hello World.AssemblyInfoInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/Ex01 -  Hello World.AssemblyInfo.cs
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/Ex01 -  Hello World.csproj.CoreCompileInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/Ex01 -  Hello World.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/refint/Ex01 -  Hello World.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/Ex01 -  Hello World.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/Ex01 -  Hello World.genruntimeconfig.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex01 -  Hello World/obj/Debug/net6.0/ref/Ex01 -  Hello World.dll
