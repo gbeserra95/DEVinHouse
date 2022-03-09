@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/Ex11 - De trás pra frente.csproj.AssemblyReference.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/Ex11 - De trás pra frente.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/Ex11 - De trás pra frente.AssemblyInfoInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/Ex11 - De trás pra frente.AssemblyInfo.cs
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/Ex11 - De trás pra frente.csproj.CoreCompileInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/bin/Debug/net6.0/Ex11 - De trás pra frente
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/bin/Debug/net6.0/Ex11 - De trás pra frente.deps.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/bin/Debug/net6.0/Ex11 - De trás pra frente.runtimeconfig.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/bin/Debug/net6.0/Ex11 - De trás pra frente.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/bin/Debug/net6.0/Ex11 - De trás pra frente.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/Ex11 - De trás pra frente.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/refint/Ex11 - De trás pra frente.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/Ex11 - De trás pra frente.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/Ex11 - De trás pra frente.genruntimeconfig.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex11 - De trás pra frente/obj/Debug/net6.0/ref/Ex11 - De trás pra frente.dll
