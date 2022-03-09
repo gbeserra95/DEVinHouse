@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/bin/Debug/net6.0/Ex09 - Rodizio de Pizza
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/bin/Debug/net6.0/Ex09 - Rodizio de Pizza.deps.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/bin/Debug/net6.0/Ex09 - Rodizio de Pizza.runtimeconfig.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/bin/Debug/net6.0/Ex09 - Rodizio de Pizza.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/bin/Debug/net6.0/Ex09 - Rodizio de Pizza.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/Ex09 - Rodizio de Pizza.csproj.AssemblyReference.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/Ex09 - Rodizio de Pizza.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/Ex09 - Rodizio de Pizza.AssemblyInfoInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/Ex09 - Rodizio de Pizza.AssemblyInfo.cs
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/Ex09 - Rodizio de Pizza.csproj.CoreCompileInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/Ex09 - Rodizio de Pizza.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/refint/Ex09 - Rodizio de Pizza.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/Ex09 - Rodizio de Pizza.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/Ex09 - Rodizio de Pizza.genruntimeconfig.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex09 - Rodizio de Pizza/obj/Debug/net6.0/ref/Ex09 - Rodizio de Pizza.dll
