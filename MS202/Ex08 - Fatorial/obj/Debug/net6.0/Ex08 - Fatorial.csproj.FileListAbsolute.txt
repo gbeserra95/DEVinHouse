@@ -1,0 +1,15 @@
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/bin/Debug/net6.0/Ex08 - Fatorial
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/bin/Debug/net6.0/Ex08 - Fatorial.deps.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/bin/Debug/net6.0/Ex08 - Fatorial.runtimeconfig.json
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/bin/Debug/net6.0/Ex08 - Fatorial.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/bin/Debug/net6.0/Ex08 - Fatorial.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/Ex08 - Fatorial.csproj.AssemblyReference.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/Ex08 - Fatorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/Ex08 - Fatorial.AssemblyInfoInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/Ex08 - Fatorial.AssemblyInfo.cs
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/Ex08 - Fatorial.csproj.CoreCompileInputs.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/Ex08 - Fatorial.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/refint/Ex08 - Fatorial.dll
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/Ex08 - Fatorial.pdb
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/Ex08 - Fatorial.genruntimeconfig.cache
+/home/gabriel/Desktop/DEVinHouse/MS202/Ex08 - Fatorial/obj/Debug/net6.0/ref/Ex08 - Fatorial.dll
