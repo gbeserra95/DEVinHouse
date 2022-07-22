@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAPI</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:Controllers.StudentsController.GetStudents(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Controllers.StudentsController.GetStudent(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:Controllers.StudentsController.CreateStudent(MyApi.Student)" -->
+        <!-- Badly formed XML comment ignored for member "M:Controllers.StudentsController.UpdateStudent" -->
+        <!-- Badly formed XML comment ignored for member "M:Controllers.StudentsController.DeleteStudent" -->
+    </members>
+</doc>

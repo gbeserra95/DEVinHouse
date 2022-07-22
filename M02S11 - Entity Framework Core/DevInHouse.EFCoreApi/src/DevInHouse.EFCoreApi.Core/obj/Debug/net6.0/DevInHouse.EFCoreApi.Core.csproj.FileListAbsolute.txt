@@ -1,0 +1,12 @@
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\bin\Debug\net6.0\DevInHouse.EFCoreApi.Core.deps.json
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\bin\Debug\net6.0\DevInHouse.EFCoreApi.Core.dll
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\bin\Debug\net6.0\DevInHouse.EFCoreApi.Core.pdb
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\DevInHouse.EFCoreApi.Core.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\DevInHouse.EFCoreApi.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\DevInHouse.EFCoreApi.Core.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\DevInHouse.EFCoreApi.Core.AssemblyInfo.cs
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\DevInHouse.EFCoreApi.Core.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\DevInHouse.EFCoreApi.Core.dll
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\refint\DevInHouse.EFCoreApi.Core.dll
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\DevInHouse.EFCoreApi.Core.pdb
+C:\Users\gabri\Desktop\DevInHouse.EFCoreApi\src\DevInHouse.EFCoreApi.Core\obj\Debug\net6.0\ref\DevInHouse.EFCoreApi.Core.dll
